@@ -39,3 +39,21 @@
 ```
 
 ---
+
+Instruções para usar o Dockerfile
+
+    Crie um arquivo chamado Dockerfile no diretório raiz do seu projeto e cole o conteúdo acima.
+
+    Substitua seu_arquivo.cpp pelo nome do arquivo principal do seu projeto.
+
+    Construa a imagem Docker. No terminal, navegue até o diretório onde está o Dockerfile e execute:
+
+```bash
+docker build -t meu_jogo .
+```
+
+Execute o contêiner:
+
+```bash
+docker run --rm -it meu_jogo
+```
