@@ -36,9 +36,9 @@
 
 ---
 
-### Instruções para usar o Dockerfile
+## Instruções para usar o Dockerfile
 
-Execute o contêiner:
+### Execute o contêiner:
 
 ```bash
 docker build -t game .
@@ -46,3 +46,9 @@ docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix raylib-
 ```
 
 ⚠️ Isso funciona para sistemas Linux com X11 (como Ubuntu). Se você estiver no Windows com WSLg, o Raylib com saída gráfica já deve funcionar também.
+
+### Execute com suporte gráfico (X11 ou WSLg):
+
+```bash
+docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix raylib-game
+```
