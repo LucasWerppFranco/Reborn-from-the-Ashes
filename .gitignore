@@ -1,0 +1,60 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.elf
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake build directory
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio files
+*.vcxproj*
+*.sln
+*.user
+*.sdf
+*.opensdf
+
+# Code::Blocks files
+*.depend
+*.layout
+*.cbp
+
+# Qt Creator
+*.pro.user
+*.qmake.stash
+
+# Clangd index
+.cache/
+.clangd/
+
+# Other
+*.log
+
