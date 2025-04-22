@@ -42,7 +42,7 @@
 
 ```bash
 docker build -t game .
-docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix raylib-game
+docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix game
 ```
 
 ⚠️ Isso funciona para sistemas Linux com X11 (como Ubuntu). Se você estiver no Windows com WSLg, o Raylib com saída gráfica já deve funcionar também.
