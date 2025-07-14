@@ -36,7 +36,7 @@
 
 ---
 
-## Instruções para usar o Dockerfile
+## Instruções para usar o Dockerfile no WSL
 
 ### Execute o contêiner:
 
